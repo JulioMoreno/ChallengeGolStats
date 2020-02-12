@@ -11,13 +11,13 @@
         </tr>
       </thead>
       <tbody>
-      <tr v-for="task in tasks">
+        <tr v-for="task in tasks">
           {{task.title}}
           <td>{{task.state}}</td>
           <td>{{task.priority}}</td>
           <td>{{task.datetime}}</td>
-      </tr>
-    </tbody>
+        </tr>
+      </tbody>
     </table>
   </div>
 </template>
