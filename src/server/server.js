@@ -44,10 +44,3 @@ async function startServer({ port = process.env.SERVER_PORT } = {}) {
 
 module.exports = startServer;
 
-//app.use('/', (req, res) => {
- // res.status(200).send('La API funciona correctamente!');
- // console.log('corriendo');
-  //console.log(`Your port is ${process.env.SERVER_PORT}`);
-//});
-
-//app.listen(process.env.SERVER_PORT);
